@@ -1,0 +1,38 @@
+4
+10
+
+# 4: nombre de processadors
+# 10: nombre de dispositius
+# dos programes iguals en un mateix processador (id 0)
+# calcula la suma dels elements del dispositiu.
+
+DISPOSITIU 0 10 3 4 8 2 1 3 5 3 6 1
+DISPOSITIU 1 20 4 5 8 21 23 1 6 43 67 2 43 53 91 32 44 2 4 23 67 43
+
+INICI_PROGRAMA 0 0 80 0
+MOU res 0
+DISPBUIT 80
+LLEGEIX x
+SUMA res x
+DESEMPILA res
+DISPBUIT 80
+GOTO 30
+ESCRIU res
+NOFARES
+FINAL_PROGRAMA
+
+INICI_PROGRAMA 1 0 60 1
+MOU res 0
+DISPBUIT 80
+LLEGEIX x
+SUMA res x
+DESEMPILA res
+DISPBUIT 80
+GOTO 30
+ESCRIU res
+NOFARES
+FINAL_PROGRAMA
+
+ESCRIU_PROCESSADOR 0
+EXECUTA 0 1000
+ESCRIU_PROCESSADOR 0

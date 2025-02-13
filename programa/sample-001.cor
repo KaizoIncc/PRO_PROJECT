@@ -1,0 +1,15 @@
+--------------------------------
+PROGRAM ID: 0 PRIO: 100 PROC#: 0 AC: 0 PC: 10 STATUS: 0 STACK: 0/100
+10: MOU x 0  <- PC
+20: DISPBUIT 60 
+30: LLEGEIX y 
+40: INCREMENTA x 
+50: GOTO 20 
+60: ESCRIU x 
+70: NOFARES 
+--------------------------------
+
+Abans de l'execució
+DISPOSITIU_ID: 0 : 3 6 17 15 13 15 6 12 9 1 2 7 10 19 3 6 0 6 12 16 
+Després de l'execució. Status: -10
+DISPOSITIU_ID: 0 : 20 

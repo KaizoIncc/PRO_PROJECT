@@ -1,0 +1,13 @@
+INICI_PROGRAMA
+MOU x 0
+DISPBUIT 60
+LLEGEIX y
+INCREMENTA x
+GOTO 20
+ESCRIU x
+NOFARES
+FINAL_PROGRAMA
+
+# aquest programa compta el nombre d'elements
+# que hi ha al dispositiu i ho escriu al dispositiu.
+# el contingut anterior del dispositiu s'esborra.

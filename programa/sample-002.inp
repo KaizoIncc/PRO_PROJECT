@@ -1,0 +1,14 @@
+INICI_PROGRAMA
+DISPBUIT 50
+LLEGEIX x
+EMPILA x
+GOTO 10
+PILABUIDA 90
+DESEMPILA x
+ESCRIU x
+GOTO 50
+NOFARES
+FINAL_PROGRAMA
+
+# aquest programa capgira els elements que hi ha al dispositiu.
+

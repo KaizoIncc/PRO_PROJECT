@@ -1,0 +1,12 @@
+SET m 10
+SET n 20
+SET n 30
+SET m 20
+SET x 50
+SET y 25
+WRITE
+GET m
+GET n
+GET x
+GET y
+WRITE
